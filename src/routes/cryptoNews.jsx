@@ -12,13 +12,19 @@ function CryptoNews() {
   useEffect(() => {
     async function fetchNews() {
       try {
-        const res = await fetch(API_URL);
+        const res = await fetch(API_URL, {
+          headers: {
+            "Accept": "application/json",
+            "User-Agent": "CryptoNewsApp/1.0" // Tambahkan header User-Agent
+          }
+        });
         if (!res.ok) {
-          throw new Error(`HTTP error! Status: ${res.status}`);
+          throw new Error(`HTTP error! Status: ${res.status} - ${res.statusText}`);
         }
         const json = await res.json();
         setData(json);
       } catch (err) {
+        console.error("Fetch error:", err);
         setError(err.message);
       } finally {
         setLoading(false);
