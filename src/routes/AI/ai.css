@@ -1,0 +1,103 @@
+.prediction-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.btn-fetch {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 14px 36px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.btn-fetch:hover:not(:disabled) {
+  background-color: #1c5980;
+}
+
+.btn-fetch:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.prediction-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.prediction-table th,
+.prediction-table td {
+  border: 1px solid #ddd;
+  padding: 16px 20px;
+  vertical-align: top;
+}
+
+.prediction-table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.coin-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #34495e;
+  text-transform: capitalize;
+  width: 140px;
+}
+
+.price-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.price-item {
+  margin: 6px 0;
+  padding: 6px 12px;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+  display: inline-block;
+  min-width: 130px;
+  font-size: 1rem;
+}
+
+.price-value {
+  font-weight: 700;
+  color: #27ae60;
+}
+
+.plot-image {
+  max-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;
+}
