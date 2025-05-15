@@ -43,7 +43,7 @@ const About = () => {
 
         <div className="profile-card">
           <div className="card-image">
-            <img src="./img/putra.jpg" alt="profil.img" />
+            <img src="./img/putra.JPG" alt="profil.img" />
           </div>
           <p className="name">Hafiyah Putra R</p>
           <p>BACK-END</p>
