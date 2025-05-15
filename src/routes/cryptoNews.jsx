@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./cryptoNews.css";
 
-const API_KEY = "42eb1bbd002b48419bc71c87d80100e1";
-const API_URL = `https://newsapi.org/v2/everything?q=cryptocurrency&language=en&pageSize=10&sortBy=publishedAt&apiKey=${API_KEY}`;
-
 function CryptoNews() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -12,12 +9,7 @@ function CryptoNews() {
   useEffect(() => {
     async function fetchNews() {
       try {
-        const res = await fetch(API_URL, {
-          headers: {
-            "Accept": "application/json",
-            "User-Agent": "CryptoNewsApp/1.0" // Tambahkan header User-Agent
-          }
-        });
+        const res = await fetch("https://serverless-newsapi.vercel.app/api/news");  // Panggil serverless function di Vercel
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status} - ${res.statusText}`);
         }
