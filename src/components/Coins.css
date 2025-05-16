@@ -15,14 +15,21 @@
   cursor: default;
 }
 .home h1 {
-  font-size: 50px;
+  font-size: 45px;
+  padding-top: 20px;
 }
 .home p {
-  font-size: 25px;
+  font-size: 30px;
   width: 100%;
   color: #ffffff;
   line-height: 2;
+  margin: 0;
 }
+.home p2 {
+  font-size: 20px;
+  line-height: 1;
+}
+
 .search {
   padding: 20px;
   color: var(--bg);
