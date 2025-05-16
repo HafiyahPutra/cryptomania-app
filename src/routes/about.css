@@ -1,9 +1,20 @@
-.about-header {
+.about-header h1 {
   color: white;
   text-align: center;
   padding: 20px;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
+  margin-bottom: 0;
+}
+.about-header h2 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+.about-header h3 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
 }
 
 .about-container {
@@ -74,27 +85,7 @@
   color: var(--bg);
 }
 
-.profile-card h1 {
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-}
-.profile-card h2 {
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-}
-.profile-card h3 {
+.profile-card a {
   color: white;
   font-size: 25px;
   text-decoration: none;
@@ -105,13 +96,13 @@
   align-items: center;
 }
 
-.profile-card h1:hover {
+.profile-card a.instagram :hover {
   color: #e1306c;
 }
-.profile-card h2:hover {
+.profile-card a.github:hover {
   color: #4078c0;
 }
-.profile-card h3:hover {
+.profile-card a.gmail:hover {
   color: #34a853;
 }
 
