@@ -17,59 +17,65 @@ const About = () => {
           <p>FRONT-END</p>
           <p>DESKRIPSI DIRI</p>
           <div className="social">
-            <h1
+            <a
               href="https://instagram.com/_raihanthaffan_"
+              className="instagram"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
-            </h1>
-            <h2
+            </a>
+            <a
               href="https://github.com"
+              className="github"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
-            </h2>
-            <h3
+            </a>
+            <a
               href="mailto:example@example.com"
+              className="gmail"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaEnvelope />
-            </h3>
+            </a>
           </div>
         </div>
 
         <div className="profile-card">
           <div className="card-image">
-            <img src="./img/putra.JPG" alt="profil.img" />
+            <img src="./img/putra.jpg" alt="profil.img" />
           </div>
           <p className="name">Hafiyah Putra R</p>
           <p>BACK-END</p>
           <p>DESKRIPSI DIRI</p>
           <div className="social">
-            <h1
+            <a
               href="https://instagram.com/Hffyan_29"
+              className="instagram"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
-            </h1>
-            <h2
+            </a>
+            <a
               href="https://github.com"
+              className="github"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
-            </h2>
-            <h3
+            </a>
+            <a
               href="mailto:example@example.com"
+              className="gmail"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaEnvelope />
-            </h3>
+            </a>
           </div>
         </div>
         <div className="profile-card">
@@ -80,27 +86,30 @@ const About = () => {
           <p>FRONT-END</p>
           <p>DESKRIPSI DIRI</p>
           <div className="social">
-            <h1
+            <a
               href="https://instagram.com/rifada005"
+              className="instagram"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
-            </h1>
-            <h2
+            </a>
+            <a
               href="https://github.com"
+              className="github"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
-            </h2>
-            <h3
+            </a>
+            <a
               href="mailto:example@example.com"
+              className="gmail"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaEnvelope />
-            </h3>
+            </a>
           </div>
         </div>
       </div>
