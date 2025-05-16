@@ -29,8 +29,9 @@ const Coins = (props) => {
   return (
     <div className="container">
       <div className="home">
-        <h1>Crypto Marketplace</h1>
-        <p>Selamat Datang di Crypto Mania Marketplace</p>
+        <h1>Pusat Informasi Crypto</h1>
+        <p>Selamat datang di Crypto Mania</p>
+        <p2>Platform informasi dunia cryptocurrency</p2>
       </div>
 
       <div>
@@ -57,7 +58,11 @@ const Coins = (props) => {
             </thead>
             <tbody>
               {currentCoins.map((coins) => (
-                <tr key={coins.id} onClick={() => window.location.href = `/coin/${coins.id}`} className="crypto-row">
+                <tr
+                  key={coins.id}
+                  onClick={() => (window.location.href = `/coin/${coins.id}`)}
+                  className="crypto-row"
+                >
                   <td>{coins.market_cap_rank}</td>
                   <td className="img-symbol">
                     <img src={coins.image} alt="" />
@@ -65,8 +70,12 @@ const Coins = (props) => {
                   </td>
                   <td>${coins.current_price.toLocaleString()}</td>
                   <td>{coins.price_change_percentage_24h.toFixed(2)}%</td>
-                  <td className="hide-mobile">${coins.total_volume.toLocaleString()}</td>
-                  <td className="hide-mobile">${coins.market_cap.toLocaleString()}</td>
+                  <td className="hide-mobile">
+                    ${coins.total_volume.toLocaleString()}
+                  </td>
+                  <td className="hide-mobile">
+                    ${coins.market_cap.toLocaleString()}
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -82,8 +91,8 @@ const Coins = (props) => {
           >
             Next
           </button>
-        </div>    
-      </div>  
+        </div>
+      </div>
       <footer class="footer">
         <p>2025 CryptoMania</p>
       </footer>
