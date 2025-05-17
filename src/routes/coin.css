@@ -1,5 +1,5 @@
 .body {
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .coin-container .content {
@@ -10,21 +10,27 @@
   flex-direction: column;
   background-color: var(--clr);
   box-shadow: 0px 0px 12px #18191b;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 .rank {
-  margin: 0.5 0;
+  margin: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--bg);
+  border: 1px solid var(--bg);
+  box-shadow: 0px 0px 8px #18191b;
+  border-radius: 10px;
 }
 
 .rank-btn {
-  border: 1px solid var(--bg);
-  box-shadow: 0px 0px 8px #18191b;
-  background-color: var(--bg);
-  border-radius: 8px;
-  padding: 0.5rem;
+  background: none;
+  padding: 0.4rem;
   display: flex;
+  font-weight: Bold;
+  font-size: 19px;
 }
 
 .info {
@@ -115,6 +121,15 @@ td:last-child {
 .about h3 {
   margin: 1rem 0;
 }
+.coin-price {
+  font-size: 30px;
+}
+.coin-price {
+  font-size: 30px;
+}
+.chart {
+  width: 690px;
+}
 
 @media screen and (max-width: 700px) {
   .coin-container .content {
@@ -139,12 +154,4 @@ td:last-child {
   .rank-btn {
     margin: 0.5rem 0;
   }
-}
-
-.coin-price {
-  font-size: 30px;
-}
-
-.chart {
-  font-size: 55px;
 }
