@@ -66,6 +66,7 @@
   border: none;
   padding: 22px 28px;
   vertical-align: middle;
+  background-color:var(--clr)
 }
 
 .prediction-table th {
