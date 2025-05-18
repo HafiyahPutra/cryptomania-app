@@ -4,8 +4,8 @@
   padding: 0 32px 32px 32px;
   background: var(--clr);
   border-radius: 16px;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   border: 4px solid #49586a;
 }
@@ -13,7 +13,7 @@
 .title {
   font-size: 2.2rem;
   margin-bottom: 20px;
-  color: #fff;
+  color: #ffff;
   letter-spacing: 1px;
   font-weight: 700;
 }
@@ -29,7 +29,7 @@
   transition: background-color 0.3s ease;
   margin-bottom: 30px;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.08);
 }
 
 .btn-fetch:hover:not(:disabled) {
@@ -51,14 +51,15 @@
 .prediction-table {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 0;
+  border-spacing: 1.5px;
   text-align: left;
   font-size: 1.05rem;
-  background: var(--clr);
+  background: var(--bg);
+  margin: auto;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 0;
-  box-shadow: 0 2px 12px rgba(44,62,80,0.10);
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.1);
 }
 
 .prediction-table th,
@@ -66,15 +67,15 @@
   border: none;
   padding: 22px 28px;
   vertical-align: middle;
-  background-color:var(--clr)
+  background-color: var(--clr);
 }
 
 .prediction-table th {
-  background-color: var(--clr);
+  background-color: #1f2833;
   color: #fff;
   font-weight: 700;
   font-size: 1.13rem;
-  border-bottom: 3px solid #34495e;
+  border-bottom: 3px solid var(--bg);
   text-align: center;
   letter-spacing: 0.5px;
 }
@@ -83,14 +84,6 @@
   font-weight: 700;
   font-size: 1.18rem;
   color: #fff;
-  text-transform: capitalize;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .price-list {
@@ -107,7 +100,7 @@
 .price-item {
   margin: 6px 0;
   padding: 8px 16px;
-  background-color: #3b4a5a;
+  background-color: #1f2833;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -116,7 +109,7 @@
   font-size: 1rem;
   color: #fff;
   font-weight: 500;
-  box-shadow: 0 1px 4px rgba(44,62,80,0.07);
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.07);
 }
 
 .price-value {
@@ -132,13 +125,10 @@
 .prediction-table tr:nth-child(even) {
   background: var(--bg);
 }
-.prediction-table tr:hover {
-  background: #232e3c;
-  transition: background 0.2s;
-}
 
 /* Table cell alignment */
-.prediction-table td, .prediction-table th {
+.prediction-table td,
+.prediction-table th {
   text-align: center;
 }
 
@@ -150,5 +140,3 @@
   vertical-align: middle;
   margin-right: 8px;
 }
-
-
