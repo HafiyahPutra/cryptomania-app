@@ -2,7 +2,7 @@
   max-width: 1100px;
   margin: 40px auto;
   padding: 0 32px 32px 32px;
-  background: #49586a;
+  background: var(--clr);
   border-radius: 16px;
   box-shadow: 0 6px 24px rgba(0,0,0,0.18);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,7 +19,7 @@
 }
 
 .btn-fetch {
-  background-color: var(--clr);
+  background-color: var(--bg);
   color: #fff;
   border: none;
   padding: 14px 36px;
