@@ -125,11 +125,11 @@
 
 /* Table row styling for dark theme */
 .prediction-table tr {
-  background: #34495e;
+  background: var(--clr);
   border-bottom: 2px solid #232e3c;
 }
 .prediction-table tr:nth-child(even) {
-  background: #3b4a5a;
+  background: var(--bg);
 }
 .prediction-table tr:hover {
   background: #232e3c;
