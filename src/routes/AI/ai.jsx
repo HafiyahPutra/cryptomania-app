@@ -53,7 +53,6 @@ const Prediction = () => {
             <tr>
               <th>Koin</th>
               <th>Harga Prediksi (7 Hari)</th>
-              <th>Plot Prediksi</th>
             </tr>
           </thead>
           <tbody>
@@ -71,17 +70,6 @@ const Prediction = () => {
                         </li>
                       ))}
                     </ul>
-                  </td>
-                  <td>
-                    {data.plot_base64 ? (
-                      <img
-                        src={`data:image/png;base64,${data.plot_base64}`}
-                        alt={`Plot Prediksi Harga ${coin}`}
-                        className="plot-image"
-                      />
-                    ) : (
-                      <span>Tidak ada plot</span>
-                    )}
                   </td>
                 </tr>
               );
