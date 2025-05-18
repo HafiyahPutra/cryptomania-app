@@ -19,7 +19,7 @@
 }
 
 .btn-fetch {
-  background-color: #00548d;
+  background-color: var(--clr);
   color: #fff;
   border: none;
   padding: 14px 36px;
@@ -33,11 +33,11 @@
 }
 
 .btn-fetch:hover:not(:disabled) {
-  background-color: #1c5980;
+  background-color: var(--color);
 }
 
 .btn-fetch:disabled {
-  background-color: #95a5a6;
+  background-color: var(--colour);
   cursor: not-allowed;
 }
 
