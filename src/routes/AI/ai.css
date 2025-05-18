@@ -69,7 +69,7 @@
 }
 
 .prediction-table th {
-  background-color: #232e3c;
+  background-color: var(--clr);
   color: #fff;
   font-weight: 700;
   font-size: 1.13rem;
