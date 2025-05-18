@@ -29,7 +29,7 @@ const Coin = () => {
   const [loading, setLoading] = useState(true);
 
   const coinUrl = `https://api.coingecko.com/api/v3/coins/${params.coinId}`;
-  const historyUrl = `https://api.coingecko.com/api/v3/coins/${params.coinId}/market_chart?vs_currency=usd&days=360`;
+  const historyUrl = `https://api.coingecko.com/api/v3/coins/${params.coinId}/market_chart?vs_currency=usd&days=30`;
 
   useEffect(() => {
     axios
@@ -56,7 +56,7 @@ const Coin = () => {
     labels: history.map((data) => new Date(data[0]).toLocaleDateString()),
     datasets: [
       {
-        label: `${coin.name} Price (Last 360 Days)`,
+        label: `${coin.name} Price (Last 30 Days)`,
         data: history.map((data) => data[1]),
         borderColor: "rgba(75, 192, 192, 1)",
         backgroundColor: "rgba(75, 192, 192, 0.2)",
@@ -214,7 +214,61 @@ const Coin = () => {
                   {loading ? (
                     <p>Loading chart...</p>
                   ) : (
-                    <Line data={chartData} />
+                    <Line
+                      data={chartData}
+                      options={{
+                        responsive: true,
+                        plugins: {
+                          legend: {
+                            display: true,
+                            labels: {
+                              color: '#b0bec5',
+                              font: { size: 16, weight: 'bold' },
+                            },
+                          },
+                          tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            backgroundColor: '#232e3c',
+                            titleColor: '#fff',
+                            bodyColor: '#b0bec5',
+                            borderColor: '#27ae60',
+                            borderWidth: 1,
+                          },
+                        },
+                        elements: {
+                          line: {
+                            borderWidth: 3,
+                            tension: 0.4, // smooth curve
+                          },
+                          point: {
+                            radius: 2,
+                            hoverRadius: 6,
+                            backgroundColor: '#27ae60',
+                          },
+                        },
+                        scales: {
+                          x: {
+                            grid: {
+                              color: 'rgba(176,190,197,0.08)',
+                            },
+                            ticks: {
+                              color: '#b0bec5',
+                              font: { size: 12 },
+                            },
+                          },
+                          y: {
+                            grid: {
+                              color: 'rgba(176,190,197,0.08)',
+                            },
+                            ticks: {
+                              color: '#b0bec5',
+                              font: { size: 12 },
+                            },
+                          },
+                        },
+                      }}
+                    />
                   )}
                 </div>
               </div>

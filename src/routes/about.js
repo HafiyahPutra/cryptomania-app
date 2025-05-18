@@ -48,7 +48,7 @@ const About = () => {
           <div className="card-image">
             <img src="./img/putra.JPG" alt="profil.img" />
           </div>
-          <p className="name">Hafiyah Putra R</p>
+          <p className="name">Hafiyah Putra</p>
           <p>BACK-END</p>
           <p>DESKRIPSI DIRI</p>
           <div className="social">
@@ -61,7 +61,7 @@ const About = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/HafiyahPutra"
               className="github"
               target="_blank"
               rel="noopener noreferrer"
@@ -69,7 +69,7 @@ const About = () => {
               <FaGithub />
             </a>
             <a
-              href="mailto:example@example.com"
+              href="mailto:haffiyanputra@gmail.com"
               className="gmail"
               target="_blank"
               rel="noopener noreferrer"
