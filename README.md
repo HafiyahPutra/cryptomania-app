@@ -66,10 +66,10 @@ Anda dapat menggunakan fitur pencarian untuk menemukan cryptocurrency tertentu, 
 
 ## Link Penting
 
--Serverles-NewsAPI : https://github.com/HafiyahPutra/serverless-newsapi
--AI-Price-Prediction : https://github.com/HafiyahPutra/crypto-price-prediction
--Vercelapp : https://vercel.com
--Render : https://render.com
+- Serverles-NewsAPI : https://github.com/HafiyahPutra/serverless-newsapi
+- AI-Price-Prediction : https://github.com/HafiyahPutra/crypto-price-prediction
+- Vercelapp : https://vercel.com
+- Render : https://render.com
 
 ---
 
@@ -78,6 +78,6 @@ Anda dapat menggunakan fitur pencarian untuk menemukan cryptocurrency tertentu, 
 Jika Anda memiliki pertanyaan, saran, atau ingin berdiskusi lebih lanjut, jangan ragu untuk menghubungi saya melalui:
 
 - GitHub: [https://github.com/HafiyahPutra](https://github.com/HafiyahPutra)
-- GitHub: [(https://github.com/Raihan9102)](https://github.com/Raihan9102)
-- GitHub: [(https://github.com/rifada19)](https://github.com/rifada19)
+- GitHub: [https://github.com/Raihan9102](https://github.com/Raihan9102)
+- GitHub: [https://github.com/rifada1)](https://github.com/rifada19)
 ---
