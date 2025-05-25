@@ -64,26 +64,12 @@ Anda dapat menggunakan fitur pencarian untuk menemukan cryptocurrency tertentu, 
 
 ---
 
-## 🤝 Kontribusi
+## Link Penting
 
-Kami sangat menyambut kontribusi dari komunitas! Jika Anda ingin berkontribusi, silakan ikuti langkah berikut:
-
-1. Fork repository ini
-2. Buat branch fitur baru  
-   ```bash
-   git checkout -b fitur-baru
-   ```
-3. Lakukan perubahan dan commit dengan pesan yang jelas  
-   ```bash
-   git commit -m "Menambahkan fitur baru"
-   ```
-4. Push branch ke repository Anda  
-   ```bash
-   git push origin fitur-baru
-   ```
-5. Buat Pull Request di repository ini
-
-Pastikan kode yang Anda kirim sudah diuji dan mengikuti standar penulisan kode yang baik.
+Serverles-NewsAPI : https://github.com/HafiyahPutra/serverless-newsapi
+AI-Price-Prediction : https://github.com/HafiyahPutra/crypto-price-prediction
+Vercelapp : https://vercel.com
+Render : https://render.com
 
 ---
 
@@ -92,6 +78,6 @@ Pastikan kode yang Anda kirim sudah diuji dan mengikuti standar penulisan kode y
 Jika Anda memiliki pertanyaan, saran, atau ingin berdiskusi lebih lanjut, jangan ragu untuk menghubungi saya melalui:
 
 - GitHub: [https://github.com/HafiyahPutra](https://github.com/HafiyahPutra)
-- Email: (haffiyanputra@gmail.com)
-
+- GitHub: [(https://github.com/Raihan9102)](https://github.com/Raihan9102)
+- GitHub: [(https://github.com/rifada19)](https://github.com/rifada19)
 ---
