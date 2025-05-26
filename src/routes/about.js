@@ -34,7 +34,7 @@ const About = () => {
               <FaGithub />
             </a>
             <a
-              href="mailto:example@example.com"
+              href="mailto:raihan.rahmat2019@gmail.com"
               className="gmail"
               target="_blank"
               rel="noopener noreferrer"
