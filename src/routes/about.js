@@ -95,7 +95,7 @@ const About = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/rifada19"
               className="github"
               target="_blank"
               rel="noopener noreferrer"
@@ -103,7 +103,7 @@ const About = () => {
               <FaGithub />
             </a>
             <a
-              href="mailto:example@example.com"
+              href="mailto: ahmadrifada0@gmail.com"
               className="gmail"
               target="_blank"
               rel="noopener noreferrer"
