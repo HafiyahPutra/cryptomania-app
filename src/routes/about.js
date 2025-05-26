@@ -14,8 +14,8 @@ const About = () => {
             <img src="./img/raihan.jpg" alt="profil.img" />
           </div>
           <p className="name">M.Raihan Thaffan H</p>
-          <p>FRONT-END</p>
-          <p>DESKRIPSI DIRI</p>
+          <p>1101220058</p>
+          <p>Front-End</p>
           <div className="social">
             <a
               href="https://instagram.com/_raihanthaffan_"
@@ -49,8 +49,8 @@ const About = () => {
             <img src="./img/putra.JPG" alt="profil.img" />
           </div>
           <p className="name">Hafiyah Putra</p>
-          <p>BACK-END</p>
-          <p>DESKRIPSI DIRI</p>
+          <p>1101223345</p>
+          <p>Back-End</p>
           <div className="social">
             <a
               href="https://instagram.com/Hffyan_29"
@@ -83,8 +83,8 @@ const About = () => {
             <img src="./img/fada.jpg" alt="profil.img" />
           </div>
           <p className="name">Ahmad Rifada</p>
-          <p>FRONT-END</p>
-          <p>DESKRIPSI DIRI</p>
+          <p>1101223019</p>
+          <p>Front-End</p>
           <div className="social">
             <a
               href="https://instagram.com/rifada005"
