@@ -78,6 +78,9 @@ Anda dapat menggunakan fitur pencarian untuk menemukan cryptocurrency tertentu, 
 Jika Anda memiliki pertanyaan, saran, atau ingin berdiskusi lebih lanjut, jangan ragu untuk menghubungi saya melalui:
 
 - GitHub: [https://github.com/HafiyahPutra](https://github.com/HafiyahPutra)
+- Email: haffiyanputra@gmail.com
 - GitHub: [https://github.com/Raihan9102](https://github.com/Raihan9102)
+- Email: raihan.rahmat2019@gmail.com
 - GitHub: [https://github.com/rifada1)](https://github.com/rifada19)
+- Email: ahmadrifada0@gmail.com
 ---
