@@ -50,7 +50,8 @@ const About = () => {
           </div>
           <p className="name">Hafiyah Putra</p>
           <p>1101223345</p>
-          <p>Back-End</p>
+          <p>Full-Stack
+                </p>
           <div className="social">
             <a
               href="https://instagram.com/Hffyan_29"
